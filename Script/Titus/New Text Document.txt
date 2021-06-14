@@ -1,0 +1,2 @@
+msiexec.exe /i TITUS_Classification_Setup_x64.msi INSTALLCLIENT_TMC=0 INSTALLCLIENT_TCO=0 INSTALLCLIENT_TCD=1 OUTLOOK_BITNESS=x86 OFFICE_BITNESS=x86 CONFIGURATIONFILE=https://hkdc2vmtt02.globalnet.lcl/TITUS.prod.tcpg CONFIGLOCATION=https://hkdc2vmtt02.globalnet.lcl/TITUS.prod.tcpg COLLECTORLOCATION=https://hkdc2vmtt02.globalnet.lcl /qn
+msiexec.exe /i TITUS_Classification_Setup_x86.msi INSTALLCLIENT_TMC=0 INSTALLCLIENT_TCO=1 INSTALLCLIENT_TCD=0 OUTLOOK_BITNESS=x86 OFFICE_BITNESS=x86 /qn
